@@ -1,1 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
+header,
+main,
+footer {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.contact {
+    margin: auto 0;
+}
+
+.name-surname {
+    font-size: 50px;
+}
+
+.container-header {
+    display: flex;
+}
+
+.my-photo {
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.block-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social img {
+    width: 30px;
+}
+
+.font-header {
+    font-size: 20px;
+}
+
+.font-header a {
+    color: black;
+}
+
+.phone a {
+    text-decoration: none;
+}
+
+.mg-rg {
+    margin-right: 20px;
+}
